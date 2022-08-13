@@ -1,0 +1,11 @@
+Installation of Node.js on Linux
+https://www.geeksforgeeks.org/installation-of-node-js-on-linux/
+
+How do I install multiple node js version on the same machine
+https://www.loginradius.com/blog/engineering/run-multiple-nodejs-version-on-the-same-machine/
+
+sudo apt install nodejs
+node -v
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+nvm install --lts
+nvm ls
