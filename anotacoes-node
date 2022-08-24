@@ -1,11 +1,51 @@
+INSTALL NODE
+----------------------
 Installation of Node.js on Linux
 https://www.geeksforgeeks.org/installation-of-node-js-on-linux/
 
+sudo apt install nodejs
+node -v
+----------------------
+
+INSTALL NVM AND NODE
+----------------------
 How do I install multiple node js version on the same machine
 https://www.loginradius.com/blog/engineering/run-multiple-nodejs-version-on-the-same-machine/
 
-sudo apt install nodejs
-node -v
+Installation of NVM
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+
+Verify Installation
+nvm version
+
+Get a List of all available NodeJs versions
+nvm ls-remote
+
+Install latest NodeJs version
+nvm install node
+
+Install latest LTS Release
 nvm install --lts
+
+Install particular NodeJs version
+nvm install 12.13.1
+nvm install 18.7.0
+
+Get a List of installed NodeJs version
 nvm ls
+
+Switching Between installed NodeJs Versions
+nvm use 12.13.1
+nvm use 16.16.0
+
+Run to specific NodeJs version, without switching
+nvm run 8.11.1 app.js
+OR
+nvm exec 8.11.1 node app.js
+
+To use installed nodeJs version in the system
+nvm use system
+
+To completely remove nvm from the system.
+nvm unload
+----------------------
