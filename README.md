@@ -4,6 +4,11 @@
 
 [Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 
+## NVM
+
+Antes de qualquer coisa mudar para a versão do Node utilizada no curso  
+<code>nvm use 16.16.0</code>  
+
 ## Comandos utilizados no curso
 
 <code>node index.js</code>  
