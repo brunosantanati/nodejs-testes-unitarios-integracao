@@ -17,6 +17,27 @@ Antes de qualquer coisa mudar para a versão do Node utilizada no curso
 <code>npx eslint --init</code>  
 <code>npx eslint index.js</code>  
 
+## Como debugar
+
+[How To Debug Node.js with the Built-In Debugger and Chrome DevTools](https://www.digitalocean.com/community/tutorials/how-to-debug-node-js-with-the-built-in-debugger-and-chrome-devtools)  
+
+Usar inspect para iniciar em modo debug:  
+<code>node inspect index.js</code>  
+
+Para colocar um breakpoint no código usar:  
+<code>debugger;</code>  
+
+Enquanto debuga pode usar isso para ver o conteúdo das variáveis:  
+<code>watch('nomeVariavel')</code>  
+
+E também essas letras:
+
+    c or cont: Continue execution to the next breakpoint or to the end of the program.  
+    n or next: Move to the next line of code.  
+    s or step: Step into a function. By default, we only step through code in the block or scope we’re debugging. By stepping into a function, we can inspect the code of the function our code calls and observe how it reacts to our data.  
+    o: Step out of a function. After stepping into a function, the debugger goes back to the main file when the function returns. We can use this command to go back to the original function we were debugging before the function has finished execution.  
+    pause: Pause the running code.  
+
 ## Para saber mais: usando o Eslint
 
 Esse projeto utiliza o ESLint. Você pode conferir mais sobre essa ferramenta [no site do projeto](https://eslint.org/) ou [na página do pacote NPM](https://www.npmjs.com/package/eslint).
