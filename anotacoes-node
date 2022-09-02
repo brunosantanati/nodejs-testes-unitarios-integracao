@@ -85,3 +85,8 @@ eslint-config-airbnb-base@latest eslint@^7.32.0 || ^8.2.0 eslint-plugin-import@^
 
 npx eslint index.js
 ----------------------
+
+STACKOVERFLOW
+----------------------
+https://stackoverflow.com/questions/73588022/how-do-these-nested-javascript-functions-work
+----------------------
