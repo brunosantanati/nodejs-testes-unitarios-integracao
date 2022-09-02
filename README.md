@@ -16,6 +16,8 @@ Antes de qualquer coisa mudar para a versão do Node utilizada no curso
 <code>npm install --save-dev eslint@8.16.0 --save-exact</code>  
 <code>npx eslint --init</code>  
 <code>npx eslint index.js</code>  
+<code>npm install --save-exact jest@28.1.0 --save-dev</code>  
+<code>npm run test</code>  
 
 ## Como debugar
 

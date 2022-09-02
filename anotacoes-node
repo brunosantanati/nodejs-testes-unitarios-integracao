@@ -84,6 +84,8 @@ eslint-config-airbnb-base@latest eslint@^7.32.0 || ^8.2.0 eslint-plugin-import@^
 ✔ Which package manager do you want to use? · npm
 
 npx eslint index.js
+npm install --save-exact jest@28.1.0 --save-dev
+npm run test
 ----------------------
 
 STACKOVERFLOW
