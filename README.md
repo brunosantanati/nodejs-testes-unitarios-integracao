@@ -4,6 +4,14 @@
 
 [Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 
+## Comandos utilizados no curso
+
+<code>node index.js</code>  
+<code>npm init -y</code>  
+<code>npm install --save-dev eslint@8.16.0 --save-exact</code>  
+<code>npx eslint --init</code>  
+<code>npx eslint index.js</code>  
+
 ## Para saber mais: usando o Eslint
 
 Esse projeto utiliza o ESLint. Você pode conferir mais sobre essa ferramenta [no site do projeto](https://eslint.org/) ou [na página do pacote NPM](https://www.npmjs.com/package/eslint).
