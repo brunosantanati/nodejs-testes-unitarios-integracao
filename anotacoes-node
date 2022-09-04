@@ -86,6 +86,8 @@ eslint-config-airbnb-base@latest eslint@^7.32.0 || ^8.2.0 eslint-plugin-import@^
 npx eslint index.js
 npm install --save-exact jest@28.1.0 --save-dev
 npm run test
+npm run test:watch
+npm run test:coverage
 ----------------------
 
 STACKOVERFLOW

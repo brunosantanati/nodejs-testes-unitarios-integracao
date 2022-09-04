@@ -18,6 +18,8 @@ Antes de qualquer coisa mudar para a versão do Node utilizada no curso
 <code>npx eslint index.js</code>  
 <code>npm install --save-exact jest@28.1.0 --save-dev</code>  
 <code>npm run test</code>  
+<code>npm run test:watch</code>  
+<code>npm run test:coverage</code>  
 
 ## Como debugar
 
@@ -50,4 +52,12 @@ Para “chamar” o Eslint no VSC e organizar seu código automaticamente, utili
 
 > Alguns erros de linter não são “auto-corrigíveis” (auto-fixable). Quando isso acontece, precisamos ler o tipo de erro que o Eslint está informando e, se for necessário, buscar na documentação para entender melhor qual é o problema e como podemos lidar com ele.
 
+## Coverage
 
+Para ver a cobertura podemos executar: <code>npm run test:coverage</code>.  
+Isso irá em última instância executar esse comando:  
+<code>node --experimental-vm-modules node_modules/jest/bin/jest.js --detectOpenHandles --coverage</code>  
+
+O Jest também fornece o relatório de cobertura de forma mais visual. Quando utilizamos a flag coverage, além de exibir o relatório no terminal, o Jest também cria a pasta coverage na raiz do projeto. Dentro desta pasta, você pode acessar a subpasta lcov-report para ver o relatório (report) e interagir com os arquivos, abrindo o arquivo index.html e navegando pelos arquivos.
+
+> Se estiver usando o Visual Studio Code, você pode abrir o arquivo index.html direto no navegador clicando com o botão direito no arquivo e selecionando a opção Open with Live Server [Alt+L Alt+O], que normalmente abre o arquivo HTML direto no navegador, no endereço http://localhost:5500/coverage/lcov-report/
