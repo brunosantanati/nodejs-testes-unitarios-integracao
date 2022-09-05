@@ -11,8 +11,10 @@ carrinho.adiciona(new Item('Açaí', 3, 5));
 
 carrinho.adicionaFrete(15);
 
-carrinho.calculaTotal();
+const total = carrinho.calculaTotal();
+console.log(total);
 
-carrinho.finalizaCompra();
+const compraFinalizada = carrinho.finalizaCompra();
+console.log(compraFinalizada);
 
 console.log(carrinho);
