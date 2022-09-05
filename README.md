@@ -11,7 +11,7 @@ Antes de qualquer coisa mudar para a versão do Node utilizada no curso
 
 ## Comandos utilizados no curso
 
-Comandos usados no primeiro projeto
+Comandos usados no primeiro projeto:
 
 <code>node index.js</code>  
 <code>npm init -y</code>  
@@ -28,14 +28,14 @@ Comandos usados no projeto API:
 <code>npm install</code>  
 <code>npm run dev</code>  
 
-Comandos relacionados ao SQLite
+Comandos relacionados ao SQLite:
 
 <code>sudo apt update</code>  
 <code>sudo apt install sqlite3</code>  
 <code>sqlite3 --version</code>  
 <code>sqlite3 ./src/db/livraria.sqlite</code>  
 
-Comandos para rodar via SQLite client
+Comandos para rodar via SQLite client:
 
 <code>PRAGMA foreign_keys;</code>  
 <code>PRAGMA foreign_keys = ON;</code>  
