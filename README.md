@@ -28,7 +28,7 @@ Comandos usados no primeiro projeto:
 <code>npm run test:watch</code>  
 <code>npm run test:coverage</code>  
 
-Comandos usados no projeto API:  
+Comandos usados no projeto API ([README](https://github.com/brunosantanati/nodejs-testes-unitarios-integracao/blob/main/my-source-code/node-api/README.md)):  
 
 <code>npm install</code>  
 <code>npm run dev</code>  
