@@ -61,3 +61,8 @@ Isso irá em última instância executar esse comando:
 O Jest também fornece o relatório de cobertura de forma mais visual. Quando utilizamos a flag coverage, além de exibir o relatório no terminal, o Jest também cria a pasta coverage na raiz do projeto. Dentro desta pasta, você pode acessar a subpasta lcov-report para ver o relatório (report) e interagir com os arquivos, abrindo o arquivo index.html e navegando pelos arquivos.
 
 > Se estiver usando o Visual Studio Code, você pode abrir o arquivo index.html direto no navegador clicando com o botão direito no arquivo e selecionando a opção Open with Live Server [Alt+L Alt+O], que normalmente abre o arquivo HTML direto no navegador, no endereço http://localhost:5500/coverage/lcov-report/
+
+## Links Jest
+
+[Iniciando](https://jestjs.io/pt-BR/docs/getting-started)  
+[Expect e matchers](https://jestjs.io/pt-BR/docs/expect)
