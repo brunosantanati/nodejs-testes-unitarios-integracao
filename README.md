@@ -6,7 +6,7 @@
 
 ## NVM
 
-Instalar versões do Node usadas no curso
+Instalar versões do Node usadas no curso  
 <code>nvm install 16.16.0</code>  
 <code>nvm install 16.14.2</code>  
 
