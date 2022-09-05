@@ -11,6 +11,8 @@ Antes de qualquer coisa mudar para a versão do Node utilizada no curso
 
 ## Comandos utilizados no curso
 
+Comandos usados no primeiro projeto
+
 <code>node index.js</code>  
 <code>npm init -y</code>  
 <code>npm install --save-dev eslint@8.16.0 --save-exact</code>  
@@ -20,6 +22,27 @@ Antes de qualquer coisa mudar para a versão do Node utilizada no curso
 <code>npm run test</code>  
 <code>npm run test:watch</code>  
 <code>npm run test:coverage</code>  
+
+Comandos usados no projeto API:  
+
+<code>npm install</code>  
+<code>npm run dev</code>  
+
+Comandos relacionados ao SQLite
+
+<code>sudo apt update</code>  
+<code>sudo apt install sqlite3</code>  
+<code>sqlite3 --version</code>  
+<code>sqlite3 ./src/db/livraria.sqlite</code>  
+
+Comandos para rodar via SQLite client
+
+<code>PRAGMA foreign_keys;</code>  
+<code>PRAGMA foreign_keys = ON;</code>  
+<code>.tables</code>  
+<code>SELECT * FROM autores;</code>  
+<code>SELECT * FROM livros;</code>  
+<code>SELECT * FROM editoras;</code>  
 
 ## Como debugar
 
