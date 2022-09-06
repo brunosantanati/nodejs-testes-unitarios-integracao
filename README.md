@@ -94,3 +94,7 @@ O Jest também fornece o relatório de cobertura de forma mais visual. Quando ut
 
 [Iniciando](https://jestjs.io/pt-BR/docs/getting-started)  
 [Expect e matchers](https://jestjs.io/pt-BR/docs/expect)
+
+## Async/await
+
+Artigo [Async/await no JavaScript: o que é e quando usar a programação assíncrona?](https://www.alura.com.br/artigos/async-await-no-javascript-o-que-e-e-quando-usar)
