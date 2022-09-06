@@ -93,9 +93,9 @@ O Jest também fornece o relatório de cobertura de forma mais visual. Quando ut
 ## Links Jest
 
 [Iniciando](https://jestjs.io/pt-BR/docs/getting-started)  
-[Expect e matchers](https://jestjs.io/pt-BR/docs/expect)
-[Mock function (pt-BR)](https://jestjs.io/pt-BR/docs/mock-functions)
-[Mock function (en)](https://jestjs.io/docs/mock-functions)
+[Expect e matchers](https://jestjs.io/pt-BR/docs/expect)  
+[Mock function (pt-BR)](https://jestjs.io/pt-BR/docs/mock-functions)  
+[Mock function (en)](https://jestjs.io/docs/mock-functions)  
 
 ## Async/await
 
