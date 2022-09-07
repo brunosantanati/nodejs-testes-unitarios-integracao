@@ -96,6 +96,8 @@ O Jest também fornece o relatório de cobertura de forma mais visual. Quando ut
 [Expect e matchers](https://jestjs.io/pt-BR/docs/expect)  
 [Mock function (pt-BR)](https://jestjs.io/pt-BR/docs/mock-functions)  
 [Mock function (en)](https://jestjs.io/docs/mock-functions)  
+[Configuração e Desmontagem (Setup and Teardown)](https://jestjs.io/pt-BR/docs/setup-teardown)  
+[Globais](https://jestjs.io/pt-BR/docs/api)  
 
 ## Async/await
 
