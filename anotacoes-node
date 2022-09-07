@@ -64,6 +64,8 @@ https://github.com/alura-cursos/2495_node_testes/tree/aula-5
 
 COMMANDS USED IN THE COURSE
 ----------------------
+### Comandos usados no primeiro projeto
+
 node index.js
 npm init -y
 npm install --save-dev eslint@8.16.0 --save-exact
@@ -90,6 +92,29 @@ npm install --save-exact jest@28.1.0 --save-dev
 npm run test
 npm run test:watch
 npm run test:coverage
+
+### Comandos usados no projeto API
+
+npm install
+npm run dev
+npm install supertest@6.2.4 --save-exact --save-dev
+npm run test
+
+### Comandos relacionados ao SQLite
+
+sudo apt update
+sudo apt install sqlite3
+sqlite3 --version
+sqlite3 ./src/db/livraria.sqlite
+
+### Comandos para rodar via SQLite client
+
+PRAGMA foreign_keys; 
+PRAGMA foreign_keys = ON;
+.tables
+SELECT * FROM autores;
+SELECT * FROM livros;
+SELECT * FROM editoras;
 ----------------------
 
 STACKOVERFLOW

@@ -32,6 +32,8 @@ Comandos usados no projeto API ([README](https://github.com/brunosantanati/nodej
 
 <code>npm install</code>  
 <code>npm run dev</code>  
+<code>npm install supertest@6.2.4 --save-exact --save-dev</code> [npm page](https://www.npmjs.com/package/supertest)  
+<code>npm run test</code>  
 
 Comandos relacionados ao SQLite:
 
