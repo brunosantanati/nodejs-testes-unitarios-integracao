@@ -14,6 +14,9 @@ Antes de qualquer coisa mudar para uma das versões do Node utilizada no curso
 <code>nvm use 16.16.0</code>  
 <code>nvm use 16.14.2</code>  
 
+Checar versões do Node instaladas
+<code>nvm ls</code>  
+
 ## Comandos utilizados no curso
 
 Comandos usados no primeiro projeto:
